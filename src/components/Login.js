@@ -7,7 +7,7 @@ import {signInWithEmailAndPassword } from "firebase/auth";
 
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
-import { USER_ICON } from "../utils/constants";
+import { BG_URL, USER_ICON } from "../utils/constants";
 
 
 const Login = () => {
@@ -92,7 +92,7 @@ const Login = () => {
       <Header />
       <div className="absolute">
         <img
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/154a9550-ce07-4e28-819c-63185dd849f8/web/IN-en-20250106-TRIFECTA-perspective_27b02e7c-f668-4639-9e82-1a5485084b2a_large.jpg"
+          src={BG_URL}
           alt="bgimg"
         ></img>
       </div>
@@ -134,6 +134,7 @@ const Login = () => {
         >
           {isSignInform ? "Sign In" : "Sign Up"}
         </button>
+        
         <p className="py-4 cursor-pointer" onClick={toggleSignInForm}>
           {isSignInform
             ? "New to Netflix? Sign Up Now"
