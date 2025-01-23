@@ -7,7 +7,7 @@ const SecondaryContainer = () => {
   //console.log(movies);
   return movies.nowPlayingMovies && (
     
-    <div className="bg-black">
+    <div className=" bg-black">
 
       {/* {
       
