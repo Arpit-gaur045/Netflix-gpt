@@ -90,15 +90,16 @@ const Login = () => {
   return (
     <div>
       <Header />
-      <div className="absolute">
+      <div className="fixed">
         <img
+          className="h-screen object-cover w-screen "
           src={BG_URL}
           alt="bgimg"
         ></img>
       </div>
       <form
        onSubmit={(e)=>e.preventDefault()}
-       className="absolute w-3/12 p-12 bg-black my-36 mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80">
+       className="absolute w-9/12 md:w-3/12 p-12 bg-black my-36 mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80">
         <h1 className="font-bold text-3xl py-4">
           {isSignInform ? "Sign In" : "Sign Up"}
         </h1>
