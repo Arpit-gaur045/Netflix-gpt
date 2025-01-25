@@ -1,51 +1,68 @@
-#  Netflix GPT
+🎥 Netflix GPT: Your Personalized Movie Companion
+🚀 A Netflix-inspired app powered by GPT and TMDB API
+🔥 Built with React, TailwindCSS, Firebase, and Redux
 
--Create React App
--Configured TailwindCSS
--Header
--Routing of App
---Login Form
---Sign Up Form
---Form Validation
---useRef Hook
---Firebase Setup
---Deploying our App to production
---Create SignUp User Account
---Implement Sign In user Api
---Created Redux Store with userSlice
---Implemented Sign Out 
---Update Profile
---BugFix: Sign up User displayName and profile picture update
---BugFix: if the user is not logged in,then Redirect /browse to Login Page and vice-versa
---Unsubscribed to the onAuthStateChange callback
---Add Hardcoded values to the constants file
---Registered for TMDB API and create an app and get access Token
---Get Data from TMDB now playing movies list APi
---Custom Hook for now Playing Movies
---create a movieSlice
---update store with movies data
---planning for Main container and secondary container
---Fetch data for Trailer Video
---update store with Trailer Video Data
---Embedded the Youtube video and make it autoplay and mute
---Tailwind Clasees to make Main container look awesome
---Build Secondary Component
---Build movie List
---TMDB image CDN
---Made the Browse page amazing with Tailwind CSS
---usePopularMovies Custom hook
---GPT Search Feature
---GPT Search Page
---GPT search Bar
---Multi-language Feature in our APP
---Get Open AI Api Key
---Gpt Search API Call
---fetched gptMoviesSuggestions from TMDB
---created gptSlice added data
---Resused Movie List component to make movie suggestion container
---Memoization
---Added .env file
---Adding .env file to gitignore
+🌟 Features
+🛠️ Setup & Configuration
+Configured TailwindCSS
+Created React App
+Firebase Setup
+Deployed App to Production
+📑 Routing & Forms
+Header
+Routing of App
+Login Form
+Sign-Up Form
+Form Validation
+useRef Hook
+🔒 Authentication
+Create Sign-Up User Account
+Implement Sign-In User API
+Implemented Sign-Out Functionality
+Update Profile Feature
+🐛 Bug Fixes
+Sign-Up User displayName and Profile Picture Update
+Redirect /browse to Login Page if User is Not Logged In (and vice versa)
+Unsubscribed from the onAuthStateChange Callback
+📜 Constants
+Added Hardcoded Values to the Constants File
+🎬 TMDB Integration
+Registered for TMDB API and Acquired Access Token
+Fetched Data from TMDB's Now Playing Movies API
+Created a Custom Hook for Now Playing Movies
+Created a movieSlice to Update the Store with Movies Data
+📦 Containers & Components
+Planned and Built Main Container
+Designed a Secondary Container
+Added Tailwind Classes to Make the Main Container Look Awesome
+📽️ Trailers
+Fetched Data for Trailer Videos
+Updated Store with Trailer Video Data
+Embedded YouTube Video with Autoplay and Mute
+🍿 Movie Lists
+Built a Movie List Component
+Integrated TMDB Image CDN
+Made the Browse Page Visually Amazing with Tailwind CSS
+🔍 GPT Features
+GPT Search Feature
+GPT Search Page
+GPT Search Bar
+🌐 Multi-language Support
+Added Multi-language Feature in the App
+🤖 OpenAI Integration
+Acquired OpenAI API Key
+Made GPT Search API Calls
+Fetched gptMoviesSuggestions from TMDB
+🧠 State Management & Optimization
+Created a gptSlice and Added GPT Data to the Store
+Reused the Movie List Component for Movie Suggestion Container
+Implemented Memoization for Performance Optimization
+📂 Environment Variables
+Added .env File
+Updated .gitignore to Exclude .env File
+🌈 Final Touches
+Enhanced User Experience with TailwindCSS
+
 
 # Features
 
