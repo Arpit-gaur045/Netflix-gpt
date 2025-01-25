@@ -116,22 +116,43 @@
 🙌 **Enjoy the magic of Netflix GPT!**
 
 
+# 🎥 Netflix GPT: Features Overview  
 
-# Features
+🚀 **Features that make Netflix GPT stand out!**
 
--Login/Sign up
-  -Sign In/Sign up Form
-  -redirect to Browse Page
---Browse(after authentication)
-  -Header
-  -Main Movie
-   -tailer in Background(i.e. the video running in background)
-   -Title in Description
-   -MovieSuggestions
-       -Movie Lists
--NetflixGPT
-  -Search Bar
-  -Movie Suggestions
+---
+
+## 🌟 Features  
+
+### 🔐 **Authentication**  
+- Login/Sign-Up  
+- Sign-In/Sign-Up Form  
+- Redirect to Browse Page After Successful Authentication  
+
+---
+
+### 🎬 **Browse Page (After Authentication)**  
+- **Header**  
+- **Main Movie**  
+  - Trailer in Background (i.e., video running in the background)  
+  - Title and Description Display  
+
+---
+
+### 🍿 **Movie Exploration**  
+- **Movie Suggestions**  
+- **Movie Lists**  
+
+---
+
+### 🤖 **NetflixGPT Features**  
+- **Search Bar**  
+- **Movie Suggestions Powered by GPT**  
+
+---
+
+💡 **Dive into the features and explore the magic of Netflix GPT!**  
+🙌 **Enjoy an immersive movie experience!**
 
 
 
